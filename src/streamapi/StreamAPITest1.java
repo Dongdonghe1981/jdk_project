@@ -4,6 +4,7 @@ import dto.Employee;
 import dto.EmployeeData;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class StreamAPITest1 {
@@ -20,5 +21,11 @@ public class StreamAPITest1 {
         employees.addAll(EmployeeData.getEmployee());
         employees.stream().distinct().forEach(System.out::println);
         System.out.println("===============");
+    }
+
+    @Test
+    public void test2(){
+        List<String> list = Arrays.asList("aa","bb","cc","dd");
+        list.stream().map(s -> s.toUpperCase()).forEach(System.out::println);
     }
 }
