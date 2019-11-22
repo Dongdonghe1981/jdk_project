@@ -12,7 +12,7 @@ public class EmployeeData {
         list.add(new Employee(1002,"张四",25));
         list.add(new Employee(1003,"张五",26));
         list.add(new Employee(1004,"张六",27));
-        list.add(new Employee(1005,"张七",28));
+        list.add(new Employee(1005,"张七的亲戚",28));
         return list;
 
     }
