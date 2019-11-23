@@ -1,0 +1,4 @@
+package streamapi
+
+class StreamEndTest {
+}
