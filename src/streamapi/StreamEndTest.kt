@@ -1,4 +1,0 @@
-package streamapi
-
-class StreamEndTest {
-}
