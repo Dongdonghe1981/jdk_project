@@ -3,7 +3,8 @@
 * 默认方法，接口方法的默认实现
 * 静态方法，接口里可以定义静态方法
 
-`public interface Animal {
+```java
+public interface Animal {
 
     void run();
     void eat();
@@ -14,7 +15,7 @@
         System.out.println("测试方法");
     }
 }
-
+```
 使用场景，接口里面定义公用的业务逻辑，抽取出来，每个子类都必须具备
 base64加解密API
 什么是base64编码
